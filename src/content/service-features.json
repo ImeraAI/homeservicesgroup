@@ -1,0 +1,98 @@
+{
+  "domestic-cleaning": {
+    "hero": "/images/cleaning-team-3.webp",
+    "second": "/images/kitchen-care.webp",
+    "title": "A routine that works for your household",
+    "body": "Start with the rooms you use most, then agree a regular checklist. Let us know about pets, delicate surfaces and whether cleaning products or equipment will be available. The frequency and time needed depend on your property and priorities.",
+    "heroAlt": "Cleaner wiping a table with a microfibre cloth",
+    "secondAlt": "Hands washing a cup at a kitchen sink"
+  },
+  "deep-cleaning": {
+    "hero": "/images/exterior-cleaning.webp",
+    "second": "/images/cleaning-team-2.webp",
+    "title": "Agree the details before the clean",
+    "body": "A deep clean needs a clear list of priorities, especially where grease, dust or build-up needs extra attention. Interior cleaning and exterior surface cleaning require different equipment; mention outdoor areas separately so suitability and scope can be confirmed.",
+    "heroAlt": "Worker cleaning a paved entrance with a surface cleaner",
+    "secondAlt": "Team cleaning a home ahead of a property handover"
+  },
+  "end-of-tenancy-cleaning": {
+    "hero": "/images/moving-cleaning.webp",
+    "second": "/images/cleaning-team-2.webp",
+    "title": "Coordinate your clean with the handover",
+    "body": "Arrange the cleaning window after belongings have been removed where possible. Share your agent\u2019s checklist and highlight appliances, carpets or marks that need attention. Cleaning requirements and any additional tasks should be agreed before the handover date.",
+    "heroAlt": "Team vacuuming and cleaning windows around moving boxes",
+    "secondAlt": "Team cleaning a home ahead of a property handover"
+  },
+  "carpet-upholstery-cleaning": {
+    "hero": "/images/cleaning-team-1.webp",
+    "second": "/images/cleaning-team-2.webp",
+    "title": "Plan around fabrics and drying time",
+    "body": "Different fibres and upholstery fabrics need different approaches. Share care labels and any previous stain treatments before work is agreed. Ask about drying time and ventilation so you can plan when to use the room or furniture again.",
+    "heroAlt": "Cleaner using an extraction tool on grey upholstery",
+    "secondAlt": "Team cleaning a home ahead of a property handover"
+  },
+  "oven-appliance-cleaning": {
+    "hero": "/images/kitchen-care.webp",
+    "second": "/images/cleaning-team-3.webp",
+    "title": "Be clear about each appliance",
+    "body": "List the appliances you want cleaned and whether you need internal cleaning or accessible exterior surfaces. A kitchen tidy-up and a specialist oven clean involve different work. Confirm removable parts, access and any manufacturer care requirements in advance.",
+    "heroAlt": "Hands washing a cup at a kitchen sink",
+    "secondAlt": "Cleaner wiping a table with a microfibre cloth"
+  },
+  "office-cleaning": {
+    "hero": "/images/office-interior.webp",
+    "second": "/images/commercial-windows.webp",
+    "title": "Build a checklist around your workspace",
+    "body": "Agree how desks, shared kitchens and washrooms should be handled, including areas that must remain undisturbed. Window cleaning, especially work at height, requires a separate assessment. Share access hours and building rules before the cleaning plan is confirmed.",
+    "heroAlt": "Rows of desks and chairs in an open-plan office",
+    "secondAlt": "Workers cleaning large commercial windows"
+  },
+  "house-removals": {
+    "hero": "/images/furniture-removal.webp",
+    "second": "/images/moving-team-3.webp",
+    "title": "Make moving day easier to plan",
+    "body": "A room-by-room inventory helps establish the size of the move. Highlight large furniture, fragile belongings and items that may need dismantling. Confirm key collection times and parking at both addresses so loading and delivery can be planned together.",
+    "heroAlt": "Two movers carrying an armchair towards a removals truck",
+    "secondAlt": "Movers loading boxes beside protected furniture"
+  },
+  "flat-removals": {
+    "hero": "/images/moving-team-4.webp",
+    "second": "/images/removals-van.webp",
+    "title": "Check the route from room to van",
+    "body": "Lift capacity, narrow stairs and the distance to the loading point can affect a flat move. Check whether your building needs a lift reservation or a specific moving slot. Share access details for both properties, including any restrictions on using communal areas.",
+    "heroAlt": "Two movers handling a cardboard packing box",
+    "secondAlt": "Branded removals van with packing boxes on a London street"
+  },
+  "man-and-van": {
+    "hero": "/images/removals-van.webp",
+    "second": "/images/moving-team-2.webp",
+    "title": "Match the vehicle and help to your items",
+    "body": "Share the size and number of items rather than just the number of rooms. Mention heavy or awkward pieces and whether carrying help is needed at either end. Collection times, loading arrangements and the agreed item list help define the job.",
+    "heroAlt": "Branded removals van with packing boxes on a London street",
+    "secondAlt": "Branded moving van on a London residential street"
+  },
+  "packing-unpacking": {
+    "hero": "/images/moving-team-4.webp",
+    "second": "/images/moving-cleaning.webp",
+    "title": "Pack with your arrival in mind",
+    "body": "Discuss who will supply boxes and protective materials, and which items you will pack yourself. Label boxes by destination room and identify essentials you will need first. If you also need a move-out clean, mention it when planning the packing schedule.",
+    "heroAlt": "Two movers handling a cardboard packing box",
+    "secondAlt": "Team vacuuming and cleaning windows around moving boxes"
+  },
+  "furniture-moving": {
+    "hero": "/images/furniture-removal.webp",
+    "second": "/images/moving-team-3.webp",
+    "title": "Measure the furniture and the access",
+    "body": "Check doorways, stairs and lifts as well as the furniture itself. Tell us if pieces need dismantling or have fragile sections. Agree protective wrapping, handling requirements and any reassembly before the move is arranged.",
+    "heroAlt": "Two movers carrying an armchair towards a removals truck",
+    "secondAlt": "Movers loading boxes beside protected furniture"
+  },
+  "office-removals": {
+    "hero": "/images/moving-team-1.webp",
+    "second": "/images/removals-van.webp",
+    "title": "Plan the order of your relocation",
+    "body": "Create an inventory by department or destination room and label equipment clearly. Agree responsibility for disconnecting and reconnecting IT equipment. Share loading-bay access, lift bookings and your preferred move sequence to support a practical relocation plan.",
+    "heroAlt": "Large branded removals van parked outside a London building",
+    "secondAlt": "Branded removals van with packing boxes on a London street"
+  }
+}

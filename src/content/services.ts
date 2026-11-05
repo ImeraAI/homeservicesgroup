@@ -1,0 +1,45 @@
+// Proposed pilot subservices. Confirm fulfilment before enabling live bookings.
+export const serviceGroups = [
+  {
+    id: 'cleaning', name: 'Cleaning', icon: 'sparkle',
+    heading: 'Cleaning services in London',
+    description: 'A regular refresh, a deeper clean or a tenancy handover. Find the right starting point for your space.',
+    services: [
+      { slug: 'domestic-cleaning', name: 'Domestic cleaning', body: 'Discuss regular cleaning for your home, the rooms to cover and a schedule that suits you.' },
+      { slug: 'deep-cleaning', name: 'Deep cleaning', body: 'Request a more thorough clean for spaces that need extra attention.' },
+      { slug: 'end-of-tenancy-cleaning', name: 'End-of-tenancy cleaning', body: 'Plan a clean around your move-out date and the property handover.' },
+      { slug: 'carpet-upholstery-cleaning', name: 'Carpet & upholstery cleaning', body: 'Tell us about your carpets, rugs or sofas, including any areas of concern.' },
+      { slug: 'oven-appliance-cleaning', name: 'Oven & appliance cleaning', body: 'Enquire about cleaning ovens and accessible appliance surfaces as part of your home clean.' },
+      { slug: 'office-cleaning', name: 'Office cleaning', body: 'Discuss cleaning for your workspace, including access times and the areas to cover.' },
+    ],
+  },
+  {
+    id: 'moving', name: 'Moving', icon: 'box',
+    heading: 'Moving services in London',
+    description: 'From a few items to a whole home. Tell us what’s moving, where it’s going and when you need a hand.',
+    services: [
+      { slug: 'house-removals', name: 'House removals', body: 'Share your moving date, collection and destination addresses, and what needs moving.' },
+      { slug: 'flat-removals', name: 'Flat removals', body: 'Plan a flat move with details about floors, lifts, stairs and access at both addresses.' },
+      { slug: 'man-and-van', name: 'Man & van', body: 'Enquire about transport and moving help for a smaller move or a few bulky items.' },
+      { slug: 'packing-unpacking', name: 'Packing & unpacking', body: 'Discuss the packing support, materials and unpacking help you need around your move.' },
+      { slug: 'furniture-moving', name: 'Furniture moving', body: 'Tell us which furniture needs moving, its size and any access restrictions.' },
+      { slug: 'office-removals', name: 'Office removals', body: 'Plan a workspace move around your equipment, furniture and preferred moving times.' },
+    ],
+  },
+] as const;
+
+
+export const serviceDetails: Record<string, { image: string; alt: string; intro: string; scope: string[]; prepare: string[] }> = {
+  "domestic-cleaning": {"image": "/images/cleaning-team-3.webp", "alt": "Cleaner wiping a wooden table", "intro": "A cleaning routine built around your home. Tell us which rooms matter most and how often you would like help.", "scope": ["Kitchen worktops and accessible surfaces", "Bathroom fixtures and everyday cleaning", "Dusting, vacuuming and floor care"], "prepare": ["Number of bedrooms and bathrooms", "Preferred frequency and day", "Access instructions and cleaning priorities"]},
+  "deep-cleaning": {"image": "/images/cleaning-team-2.webp", "alt": "Cleaning team working in a living room and kitchen", "intro": "Give those overlooked areas some attention. Discuss a one-off clean with a room-by-room plan for your property.", "scope": ["Detailed attention to kitchens and bathrooms", "Accessible fixtures, surfaces and edges", "Priority areas agreed before the clean"], "prepare": ["Property size and current condition", "Areas with build-up or extra cleaning needs", "Your preferred date and access arrangements"]},
+  "end-of-tenancy-cleaning": {"image": "/images/cleaning-team-2.webp", "alt": "Team cleaning a home ahead of a property handover", "intro": "Prepare for your property handover with a cleaning enquiry tailored to your move-out date and tenancy checklist.", "scope": ["Cleaning priorities based on your handover checklist", "Kitchen, bathroom and living space requirements", "Optional carpet or appliance cleaning to discuss"], "prepare": ["Move-out and key handover dates", "Property inventory or cleaning checklist", "Whether the property will be empty"]},
+  "carpet-upholstery-cleaning": {"image": "/images/cleaning-team-1.webp", "alt": "Cleaner using an extraction tool on grey upholstery", "intro": "Refresh the soft furnishings in your space. Share the materials, sizes and areas of concern so suitable cleaning can be discussed.", "scope": ["Carpets and rugs assessed for cleaning suitability", "Sofas, chairs and upholstered furnishings", "Stains and problem areas discussed in advance"], "prepare": ["Item sizes, fabric labels and photographs if available", "Details of stains or previous treatments", "Access and time available for drying"]},
+  "oven-appliance-cleaning": {"image": "/images/cleaning-team-3.webp", "alt": "Cleaner working on an accessible household surface", "intro": "Discuss the care your oven and appliances need, from everyday surface cleaning to a more focused oven clean.", "scope": ["Oven cleaning requirements agreed in advance", "Accessible appliance exteriors and surfaces", "Appliance-specific requirements and exclusions"], "prepare": ["Appliance type, size and condition", "Which internal or external areas need cleaning", "Any manufacturer care instructions"]},
+  "office-cleaning": {"image": "/images/cleaning-team-3.webp", "alt": "Cleaner wiping a table with a microfibre cloth", "intro": "Keep your workspace ready for the day. Discuss a cleaning plan around your working hours, shared areas and access requirements.", "scope": ["Desks and agreed accessible surfaces", "Shared kitchens, washrooms and communal areas", "Floor care and agreed cleaning frequency"], "prepare": ["Workspace size and number of rooms", "Preferred access times and security arrangements", "Sensitive equipment and areas to avoid"]},
+  "house-removals": {"image": "/images/moving-team-3.webp", "alt": "Moving team carrying boxes beside a removals van", "intro": "Plan your next chapter with a move shaped around your home, belongings and moving day.", "scope": ["Collection and delivery requirements", "Furniture and boxed belongings to be moved", "Packing or furniture handling support to discuss"], "prepare": ["Both addresses and your moving date", "An inventory of furniture and boxes", "Parking and access restrictions"]},
+  "flat-removals": {"image": "/images/moving-team-4.webp", "alt": "Movers carrying a large box in a living room", "intro": "From a studio to a top-floor flat, plan the practical details of moving between buildings before the day arrives.", "scope": ["Moving requirements for flats and apartments", "Lift, stair and corridor access planning", "Building rules and loading arrangements"], "prepare": ["Floor numbers at both properties", "Lift dimensions and booking requirements", "Parking distance and building access times"]},
+  "man-and-van": {"image": "/images/moving-team-2.webp", "alt": "Branded moving van on a London residential street", "intro": "A few boxes, a bulky item or a smaller move. Tell us what needs transporting so the right amount of help can be discussed.", "scope": ["Small moves and individual item transport", "Collection and destination arrangements", "Loading and unloading help to agree"], "prepare": ["Item list with approximate dimensions", "Collection and delivery postcodes", "Whether you need help carrying items"]},
+  "packing-unpacking": {"image": "/images/moving-team-4.webp", "alt": "Two movers handling a cardboard packing box", "intro": "Get organised before moving day. Discuss packing materials, fragile items and the unpacking support you need at the other end.", "scope": ["Packing support for agreed rooms and items", "Materials and fragile item requirements", "Unpacking priorities at your destination"], "prepare": ["How much needs packing", "Fragile or valuable items needing special care", "Your packing and moving dates"]},
+  "furniture-moving": {"image": "/images/moving-team-3.webp", "alt": "Movers loading boxes beside protected furniture", "intro": "Make a clear plan for your larger items. Share dimensions, access details and any dismantling needs before arranging the move.", "scope": ["Moving individual pieces or several furniture items", "Doorway, staircase and lift access planning", "Dismantling and reassembly needs to discuss"], "prepare": ["Furniture dimensions and approximate weight", "Narrow doorways, stairs or awkward corners", "Any assembly instructions or special handling needs"]},
+  "office-removals": {"image": "/images/moving-team-1.webp", "alt": "Large branded removals van parked outside a London building", "intro": "Plan a workspace relocation around your team and equipment. Discuss timings, access and the order in which things need to move.", "scope": ["Office furniture and boxed equipment requirements", "Collection and destination access planning", "Moving schedule and business continuity priorities"], "prepare": ["Office locations and preferred moving times", "Inventory of furniture and equipment", "Building permissions, loading bays and lift access"]},
+};
