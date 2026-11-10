@@ -8,5 +8,13 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en-GB"><body><a className="skip-link" href="#main">Skip to content</a>{children}</body></html>;
+  // Browser extensions can inject attributes into <html> before React hydrates.
+  return (
+    <html lang="en-GB" suppressHydrationWarning={process.env.NODE_ENV === 'development'}>
+      <body>
+        <a className="skip-link" href="#main">Skip to content</a>
+        {children}
+      </body>
+    </html>
+  );
 }
